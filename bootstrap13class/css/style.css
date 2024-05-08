@@ -1,0 +1,223 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #202020;
+    /* padding: 0;
+    margin: 0; */
+    
+}
+  
+/* header css .. */
+
+
+header{
+    padding: 26px 0;
+}
+.navbar-itmes li{
+    margin-right: 18px;
+}
+.navbar-itmes li a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffff;
+}
+.navbar-itmes li a:hover{
+    color: #F50D32;
+}
+
+/* home banner css start */
+.banner{
+    padding-top: 28px;
+    position: relative;
+}
+.vector-img{
+    position: absolute;
+    z-index: -1;
+    left: -20px ;
+}
+.home-content{
+    margin-right:110px ;
+}
+.home-content h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #F50D32;
+}
+.home-content h1{
+    font-size: 44px;
+    font-weight: 700;
+    color: #ffff;  
+    margin-top: 28px; 
+}
+.home-content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffff;   
+    line-height: 28px;
+    margin-top: 32px;
+    
+}
+.home-content a{
+    display: inline-block;
+    padding: 18px 42px;
+    border-radius: 4px;
+    background-color: #F50D32;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffff;
+    text-decoration: none;
+    margin-top: 46px;
+    margin-bottom: 20px;
+}
+.home-banner .img-box{
+    position: relative;
+}
+.home-banner .img-box img{
+box-shadow: -25px 25px 0px #2E2E30;
+}
+.home-banner .img-box .img-2{
+    position: absolute;
+    top: -23px;
+    right: -24px;
+    z-index: -1;
+}
+
+
+/* service section  */
+
+.service{
+    margin-top: 120px;
+    position: relative;
+}
+.back-img-1{
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+}
+.back-img-2{
+    position: absolute;
+    bottom: 300px;
+    left: 142px;
+}
+.service-content h2{
+    font-size: 34px;
+    font-weight: 600;
+    color: #ffff;
+}
+.service-line{
+    width: 100px;
+    height: 4px;
+    background-color: #F50D32;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.service-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffff;
+    line-height: 28px;
+}
+.service-item {
+    margin-bottom: 10px;
+}
+.service-item i{
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #F50D32;
+    color: #fff;
+    margin-bottom: 32px;
+}
+.service-item h3{
+    font-size: 23px;
+    color: #ffff;
+    font-weight: 500;
+}
+.service-item p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffff;
+    line-height: 28px;
+    margin: 10px 0;
+}
+
+.service-item a{
+    display: flex;
+    align-items: start;
+    font-size: 16px;
+    color: #ffff;
+    font-weight: 500 ;
+    text-decoration: none;
+}
+.service-item a i{
+    margin-left: 6px;
+    padding: 0px;
+    font-size: 24px;
+    background-color: transparent;
+
+}
+
+
+/* skill section  */
+
+.skill{
+    background-color: rosybrown;
+    margin-top: 120px;
+}
+.skill-row{
+    margin-top: 70px;
+}
+.skill-headding{
+    text-align: center;
+}
+.skill-line{
+    width: 100px;
+    height: 4px;
+    background-color: #F50D32;
+    margin:  10px auto;
+}
+ .skill-headding h1{
+    font-size: 34;
+    font-weight: 600;
+    color: #ffff;
+    padding-bottom: 7px;
+ }
+.skill-headding  p{
+    font-size: 16px;
+    color: #ffff;
+    line-height: 28px;
+    padding-top: 15px;
+}
+.skill-item{
+    padding: 40px 18px 39px 44px ;
+    border: 3px solid #2E2E30;
+}
+.skill-item h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #F50D32;
+    margin-bottom: 15px;
+}
+.skill-item h2{
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 12px;
+}
+.skill-item p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+}
+.border-box{
+    padding: 44px;
+    width: 373px;
+    height: 244px;
+    border: 3px solid #2E2E30;
+}
+
+
+
+
+
